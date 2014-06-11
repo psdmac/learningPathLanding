@@ -403,8 +403,8 @@ body {
   min-height: 100%;
   background: rgba(255, 255, 255, 0.2);
   *zoom: 1;
-  max-width: 1280px;
-  _width: 1280px;
+  max-width: 4096px;
+  _width: 4096px;
   padding-left: 0em;
   padding-right: 0em;
   margin-left: auto;
