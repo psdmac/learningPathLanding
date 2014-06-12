@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 /* line 33, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
 article,
 aside,
@@ -372,12 +373,6 @@ body {
   visibility: visible;
 }
 
-/* line 36, ../sass/partials/_page.scss */
-#container {
-  width: 100%;
-  height: 100%;
-}
-
 /* line 40, ../sass/partials/_page.scss */
 .container-bg {
   position: fixed;
@@ -385,7 +380,7 @@ body {
   left: 0;
   width: 100%;
   min-height: 100%;
-  background-color: #2d9a39;
+  background-color: #2f705e;
   background-image: url(../img/green_tunnel_min.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -396,12 +391,7 @@ body {
 
 /* line 51, ../sass/partials/_page.scss */
 .mask-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100%;
-  background: rgba(255, 255, 255, 0.2);
+  background: #f1f1f1;
   *zoom: 1;
   max-width: 4096px;
   _width: 4096px;
@@ -418,35 +408,46 @@ body {
 }
 
 /* line 61, ../sass/partials/_page.scss */
+.brand-wrapper {
+  overflow: hidden;
+  background: #50b599;
+  margin-bottom: 50px;
+}
+
+/* line 66, ../sass/partials/_page.scss */
 .brand {
   font-family: 'Permanent Marker', cursive, Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
   color: #f1f1f1;
-  text-shadow: 0px 0px 10px #333333;
+  text-shadow: 0px 0px 0px #333333;
   font-size: 36px;
 }
 @media (min-width: 30em) {
-  /* line 61, ../sass/partials/_page.scss */
+  /* line 66, ../sass/partials/_page.scss */
   .brand {
     font-size: 72px;
   }
 }
+/* line 75, ../sass/partials/_page.scss */
+.brand .changee {
+  font-family: 'PT Sans', sans-serif;
+}
 
-/* line 71, ../sass/partials/_page.scss */
+/* line 79, ../sass/partials/_page.scss */
 .sub-title {
   text-align: center;
   color: #f1f1f1;
   font-size: 26px;
-  text-shadow: 0px 0px 5px #333333;
+  text-shadow: 0px 0px 0px #333333;
 }
 @media (min-width: 30em) {
-  /* line 71, ../sass/partials/_page.scss */
+  /* line 79, ../sass/partials/_page.scss */
   .sub-title {
-    font-size: 36px;
+    font-size: 48px;
   }
 }
 
-/* line 80, ../sass/partials/_page.scss */
+/* line 88, ../sass/partials/_page.scss */
 .ss-form {
   width: 100%;
   margin: 0 auto;
@@ -458,77 +459,77 @@ body {
   margin-bottom: 110px;
 }
 @media (min-width: 30em) {
-  /* line 80, ../sass/partials/_page.scss */
+  /* line 88, ../sass/partials/_page.scss */
   .ss-form {
     width: 480px;
   }
 }
 @media (min-width: 30em) {
-  /* line 80, ../sass/partials/_page.scss */
+  /* line 88, ../sass/partials/_page.scss */
   .ss-form {
     margin-bottom: 70px;
   }
 }
-/* line 93, ../sass/partials/_page.scss */
+/* line 101, ../sass/partials/_page.scss */
 .ss-form .ss-q-title {
   margin-top: 1em;
 }
-/* line 96, ../sass/partials/_page.scss */
+/* line 104, ../sass/partials/_page.scss */
 .ss-form .ss-q-help {
   margin-top: 0.5em;
   margin-bottom: 3px;
   font-size: 14px;
 }
-/* line 101, ../sass/partials/_page.scss */
+/* line 109, ../sass/partials/_page.scss */
 .ss-form .ss-choice-item {
   list-style: none;
   margin-top: 3px;
 }
-/* line 105, ../sass/partials/_page.scss */
+/* line 113, ../sass/partials/_page.scss */
 .ss-form .ss-item.ss-navigate {
   width: 200px;
   margin: 0 auto;
 }
-/* line 109, ../sass/partials/_page.scss */
+/* line 117, ../sass/partials/_page.scss */
 .ss-form .ss-question-list {
   margin: 0;
 }
 
-/* line 113, ../sass/partials/_page.scss */
+/* line 121, ../sass/partials/_page.scss */
 #entry_1860243683 {
   width: 100%;
 }
 
-/* line 116, ../sass/partials/_page.scss */
+/* line 124, ../sass/partials/_page.scss */
 #entry_511581303_other_option_response {
   width: 100px;
 }
 
-/* line 119, ../sass/partials/_page.scss */
+/* line 127, ../sass/partials/_page.scss */
 #ss-submit {
   font-size: 1.5em;
   width: 200px;
   height: 40px;
-  background: #5DD06A;
+  background: #50b599;
   border: 0;
   border-radius: 3px;
   color: #f1f1f1;
-  -webkit-box-shadow: inset 0px -5px 0px #38c248;
-  -moz-box-shadow: inset 0px -5px 0px #38c248;
-  box-shadow: inset 0px -5px 0px #38c248;
+  -webkit-box-shadow: inset 0px -5px 0px #3e947c;
+  -moz-box-shadow: inset 0px -5px 0px #3e947c;
+  box-shadow: inset 0px -5px 0px #3e947c;
 }
-/* line 128, ../sass/partials/_page.scss */
+/* line 136, ../sass/partials/_page.scss */
 #ss-submit:hover {
   -webkit-transform: translateY(2px);
   -moz-transform: translateY(2px);
   -ms-transform: translateY(2px);
   -o-transform: translateY(2px);
   transform: translateY(2px);
-  -webkit-box-shadow: inset 0px -3px 0px #38c248;
-  -moz-box-shadow: inset 0px -3px 0px #38c248;
-  box-shadow: inset 0px -3px 0px #38c248;
+  -webkit-box-shadow: inset 0px -3px 0px #3e947c;
+  -moz-box-shadow: inset 0px -3px 0px #3e947c;
+  box-shadow: inset 0px -3px 0px #3e947c;
 }
-/* line 132, ../sass/partials/_page.scss */
+/* line 140, ../sass/partials/_page.scss */
 #ss-submit:disabled {
   background: #999;
   border: 0;
@@ -538,7 +539,7 @@ body {
   -moz-box-shadow: inset 0px -5px 0px gray;
   box-shadow: inset 0px -5px 0px gray;
 }
-/* line 138, ../sass/partials/_page.scss */
+/* line 146, ../sass/partials/_page.scss */
 #ss-submit:disabled:hover {
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -550,7 +551,7 @@ body {
   box-shadow: inset 0px -5px 0px gray;
 }
 
-/* line 145, ../sass/partials/_page.scss */
+/* line 153, ../sass/partials/_page.scss */
 #footer {
   position: fixed;
   bottom: 0;
@@ -562,12 +563,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 153, ../sass/partials/_page.scss */
+/* line 161, ../sass/partials/_page.scss */
 .fblink {
   margin: 0;
   text-align: center;
 }
-/* line 156, ../sass/partials/_page.scss */
+/* line 164, ../sass/partials/_page.scss */
 .fblink a {
   background-color: rgba(59, 89, 153, 0.6);
   -webkit-transition: background-color, 0.3s;
@@ -587,7 +588,7 @@ body {
   *display: inline;
   margin: 0.5em;
 }
-/* line 159, ../sass/partials/_page.scss */
+/* line 167, ../sass/partials/_page.scss */
 .fblink a:hover {
   background-color: rgba(59, 89, 153, 0.9);
 }

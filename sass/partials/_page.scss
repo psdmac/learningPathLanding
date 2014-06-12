@@ -34,8 +34,8 @@ body {
 }
 
 #container {
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
 }
 .container-bg {
   position: fixed;
@@ -43,29 +43,37 @@ body {
   left: 0;
   width: 100%;
   min-height: 100%;
-  background-color: darken(#5DD06A, 20%);
+  background-color: darken(#50b599, 20%);
   background-image: url(../img/green_tunnel_min.jpg);
   @include background-size(cover);
   background-position: center;
 }
 .mask-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100%;
-  background: rgba(255,255,255,0.2);
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  // min-height: 100%;
+  background: #f1f1f1;
   @include container;
   // @include susy-grid-background;
+}
+.brand-wrapper {
+  overflow: hidden;
+  background: #50b599;
+  margin-bottom: 50px;
 }
 .brand {
   font-family: 'Permanent Marker', cursive, Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
   color: #f1f1f1;
-  @include text-shadow(0px 0px 10px #333);
+  @include text-shadow(0px 0px 0px #333);
   font-size: 36px;
   @include at-breakpoint($small) {
     font-size: 72px;
+  }
+  .changee {
+    font-family: 'PT Sans', sans-serif;
   }
 }
 .sub-title {
@@ -73,9 +81,9 @@ body {
   color: #f1f1f1;
   font-size: 26px;
   @include at-breakpoint($small) {
-    font-size: 36px;
+    font-size: 48px;
   }
-  @include text-shadow(0px 0px 5px #333);
+  @include text-shadow(0px 0px 0px #333);
 }
 .ss-form {
   width: 100%;
@@ -120,14 +128,14 @@ body {
   font-size: 1.5em;
   width: 200px;
   height: 40px;
-  background: #5DD06A;
+  background: #50b599;
   border: 0;
   border-radius: 3px;
   color: #f1f1f1;
-  @include box-shadow(inset 0px -5px 0px darken(#5DD06A, 10%));
+  @include box-shadow(inset 0px -5px 0px darken(#50b599, 10%));
   &:hover {
     @include translateY(2px);
-    @include box-shadow(inset 0px -3px 0px darken(#5DD06A, 10%));
+    @include box-shadow(inset 0px -3px 0px darken(#50b599, 10%));
   }
   &:disabled {
     background: #999;
