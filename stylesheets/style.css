@@ -424,7 +424,7 @@ body {
 
 /* line 66, ../sass/partials/_page.scss */
 .brand {
-  font-family: 'Permanent Marker', cursive, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Conv_MyriadPro-Light', 'PT Sans', sans-serif;
   text-align: center;
   color: #f1f1f1;
   margin: 0.5em 0;
@@ -437,12 +437,12 @@ body {
     font-size: 64px;
   }
 }
-/* line 76, ../sass/partials/_page.scss */
+/* line 77, ../sass/partials/_page.scss */
 .brand .changee {
   font-family: 'Conv_MyriadPro-Light', 'PT Sans', sans-serif;
 }
 
-/* line 80, ../sass/partials/_page.scss */
+/* line 81, ../sass/partials/_page.scss */
 .sub-title {
   text-align: center;
   color: #f1f1f1;
@@ -451,13 +451,13 @@ body {
   text-shadow: 0px 0px 0px #333333;
 }
 @media (min-width: 30em) {
-  /* line 80, ../sass/partials/_page.scss */
+  /* line 81, ../sass/partials/_page.scss */
   .sub-title {
     font-size: 36px;
   }
 }
 
-/* line 90, ../sass/partials/_page.scss */
+/* line 91, ../sass/partials/_page.scss */
 .ss-form {
   width: 100%;
   margin: 0 auto;
@@ -469,53 +469,53 @@ body {
   margin-bottom: 110px;
 }
 @media (min-width: 30em) {
-  /* line 90, ../sass/partials/_page.scss */
+  /* line 91, ../sass/partials/_page.scss */
   .ss-form {
     width: 480px;
   }
 }
 @media (min-width: 30em) {
-  /* line 90, ../sass/partials/_page.scss */
+  /* line 91, ../sass/partials/_page.scss */
   .ss-form {
     margin-bottom: 70px;
   }
 }
-/* line 103, ../sass/partials/_page.scss */
+/* line 104, ../sass/partials/_page.scss */
 .ss-form .ss-q-title {
   margin-top: 1em;
 }
-/* line 106, ../sass/partials/_page.scss */
+/* line 107, ../sass/partials/_page.scss */
 .ss-form .ss-q-help {
   margin-top: 0.5em;
   margin-bottom: 3px;
   font-size: 14px;
 }
-/* line 111, ../sass/partials/_page.scss */
+/* line 112, ../sass/partials/_page.scss */
 .ss-form .ss-choice-item {
   list-style: none;
   margin-top: 3px;
 }
-/* line 115, ../sass/partials/_page.scss */
+/* line 116, ../sass/partials/_page.scss */
 .ss-form .ss-item.ss-navigate {
   width: 200px;
   margin: 0 auto;
 }
-/* line 119, ../sass/partials/_page.scss */
+/* line 120, ../sass/partials/_page.scss */
 .ss-form .ss-question-list {
   margin: 0;
 }
 
-/* line 123, ../sass/partials/_page.scss */
+/* line 124, ../sass/partials/_page.scss */
 #entry_1860243683 {
   width: 100%;
 }
 
-/* line 126, ../sass/partials/_page.scss */
+/* line 127, ../sass/partials/_page.scss */
 #entry_511581303_other_option_response {
   width: 100px;
 }
 
-/* line 129, ../sass/partials/_page.scss */
+/* line 130, ../sass/partials/_page.scss */
 #ss-submit {
   font-size: 1.5em;
   width: 200px;
@@ -528,7 +528,7 @@ body {
   -moz-box-shadow: inset 0px -5px 0px #3e947c;
   box-shadow: inset 0px -5px 0px #3e947c;
 }
-/* line 138, ../sass/partials/_page.scss */
+/* line 139, ../sass/partials/_page.scss */
 #ss-submit:hover {
   -webkit-transform: translateY(2px);
   -moz-transform: translateY(2px);
@@ -539,7 +539,7 @@ body {
   -moz-box-shadow: inset 0px -3px 0px #3e947c;
   box-shadow: inset 0px -3px 0px #3e947c;
 }
-/* line 142, ../sass/partials/_page.scss */
+/* line 143, ../sass/partials/_page.scss */
 #ss-submit:disabled {
   background: #999;
   border: 0;
@@ -549,7 +549,7 @@ body {
   -moz-box-shadow: inset 0px -5px 0px gray;
   box-shadow: inset 0px -5px 0px gray;
 }
-/* line 148, ../sass/partials/_page.scss */
+/* line 149, ../sass/partials/_page.scss */
 #ss-submit:disabled:hover {
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
@@ -561,7 +561,7 @@ body {
   box-shadow: inset 0px -5px 0px gray;
 }
 
-/* line 155, ../sass/partials/_page.scss */
+/* line 156, ../sass/partials/_page.scss */
 #footer {
   position: fixed;
   bottom: 0;
@@ -573,12 +573,12 @@ body {
   box-sizing: border-box;
 }
 
-/* line 163, ../sass/partials/_page.scss */
+/* line 164, ../sass/partials/_page.scss */
 .fblink {
   margin: 0;
   text-align: center;
 }
-/* line 166, ../sass/partials/_page.scss */
+/* line 167, ../sass/partials/_page.scss */
 .fblink a {
   background-color: rgba(59, 89, 153, 0.6);
   -webkit-transition: background-color, 0.3s;
@@ -598,7 +598,7 @@ body {
   *display: inline;
   margin: 0.5em;
 }
-/* line 169, ../sass/partials/_page.scss */
+/* line 170, ../sass/partials/_page.scss */
 .fblink a:hover {
   background-color: rgba(59, 89, 153, 0.9);
 }
